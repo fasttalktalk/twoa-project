@@ -24,7 +24,7 @@ export default function LoginPage() {
 
         <form action={action} className="bg-white border border-gray-100 rounded-2xl p-6 space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">รหัสผ่าน</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1.5">รหัสผ่าน (1234) For Demo</label>
             <input
               type="password"
               name="password"
