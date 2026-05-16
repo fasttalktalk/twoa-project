@@ -9,6 +9,9 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 export const metadata: Metadata = {
   title: 'TWO A HARDWARE — ทูเอ ฮาร์ดแวร์',
   description: 'จำหน่ายสี เครื่องมือช่าง อุปกรณ์รถยนต์ และฮาร์ดแวร์คุณภาพสูง',
+  icons:{
+    icon: '/public/logo.jpg',
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
