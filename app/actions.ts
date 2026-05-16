@@ -117,5 +117,6 @@ export async function removeCategory(formData: FormData) {
   revalidatePath('/')
   revalidatePath('/products')
   revalidatePath('/admin')
+  revalidatePath('/admin/add')
   revalidatePath('/admin/categories')
 }

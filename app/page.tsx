@@ -2,6 +2,8 @@ import Link from 'next/link'
 import ProductCard from '@/components/ProductCard'
 import { getProducts, getCategories, getCategoryIconMap } from '@/lib/products'
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   const products = getProducts()
   const featured = products.filter((p) => p.featured).slice(0, 4)
