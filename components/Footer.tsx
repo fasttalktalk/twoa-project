@@ -45,13 +45,13 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4 text-sm">ติดต่อเรา</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <a href="tel:123-456-789" className="hover:text-white transition-colors flex items-center gap-2">
+                <a href="/" className="hover:text-white transition-colors flex items-center gap-2">
                   📞 123-456-789
                 </a>
               </li>
               <li>
                 <a
-                  href="https://line.me/ti/p/~twoahardware"
+                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-2"

@@ -68,7 +68,7 @@ export default async function ProductPage({ params }: { params: Params }) {
             <p className="text-sm text-gray-500 mb-3">ติดต่อซื้อได้ผ่านช่องทางด้านล่าง</p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://www.facebook.com/profile.php?id=61571792037230"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2.5 bg-[#1877F2] hover:bg-[#1464d8] text-white font-semibold py-3 px-6 rounded-xl transition-colors"
@@ -79,7 +79,7 @@ export default async function ProductPage({ params }: { params: Params }) {
                 Facebook
               </a>
               <a
-                href="https://line.me/ti/p/~twoahardware"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2.5 bg-[#06C755] hover:bg-[#05a847] text-white font-semibold py-3 px-6 rounded-xl transition-colors"
