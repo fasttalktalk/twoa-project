@@ -25,7 +25,7 @@ export default function ToggleStockButton({ id, inStock }: { id: string; inStock
         }`}
       >
         <span className={`w-1.5 h-1.5 rounded-full ${inStock ? 'bg-green-500' : 'bg-red-400'}`} />
-        {isPending ? '...' : inStock ? 'มีสินค้า' : 'หมด'}
+        {isPending ? '...' : inStock ? 'มีสินค้า(กดเพื่อเปลี่ยนสถานะ)' : 'หมด(กดเพื่อเปลี่ยนสถานะ)'}
       </button>
     </form>
   )
