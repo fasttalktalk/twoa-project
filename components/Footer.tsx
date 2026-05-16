@@ -45,8 +45,8 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4 text-sm">ติดต่อเรา</h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <a href="tel:0613576268" className="hover:text-white transition-colors flex items-center gap-2">
-                  📞 061-357-6268
+                <a href="tel:123-456-789" className="hover:text-white transition-colors flex items-center gap-2">
+                  📞 123-456-789
                 </a>
               </li>
               <li>
@@ -56,7 +56,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-2"
                 >
-                  💬 Line: twoahardware
+                  💬 Line: ...
                 </a>
               </li>
               <li className="flex items-center gap-2">🕐 จ-ส 08:00–17:00 น.</li>

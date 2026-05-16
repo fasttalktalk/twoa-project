@@ -27,6 +27,9 @@ export default function Header() {
             <Link href="/products" className="text-sm text-gray-600 hover:text-[#1b3c8b] transition-colors font-medium">
               สินค้าทั้งหมด
             </Link>
+            <Link href="/admin" className="text-sm text-gray-600 hover:text-[#1b3c8b] transition-colors font-medium">
+              จัดการสินค้า
+            </Link>
           </nav>
 
           <Link
