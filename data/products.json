@@ -1,0 +1,15 @@
+[
+  {
+    "name": "readme",
+    "brand": "wad",
+    "category": "อปกฟฟ",
+    "price": 222,
+    "unit": "aw",
+    "description": "wad",
+    "image": "/products/1778906126403.jpg",
+    "inStock": true,
+    "featured": true,
+    "id": "1778906126405",
+    "createdAt": "2026-05-16"
+  }
+]

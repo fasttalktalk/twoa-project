@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1b3c8b;
+  --color-brand-dark: #132a63;
+  --color-brand-light: #2a52b0;
+  --color-accent: #f5a623;
+  --color-accent-dark: #d4891a;
+  --font-geist: 'Geist', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-geist), 'Sarabun', 'Noto Sans Thai', Arial, sans-serif;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
