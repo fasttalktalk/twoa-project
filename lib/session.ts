@@ -3,9 +3,7 @@ import { SignJWT, jwtVerify } from 'jose'
 import { cookies } from 'next/headers'
 
 function getKey() {
-  const s = process.env['SESSION_SECRET']
-  console.error('[session] SECRET len:', s?.length ?? 'undefined')
-  return new TextEncoder().encode(s)
+  return new TextEncoder().encode(process.env['SESSION_SECRET'])
 }
 
 export async function encrypt(payload: object) {
