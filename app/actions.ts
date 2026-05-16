@@ -107,6 +107,7 @@ export async function createCategory(
   revalidatePath('/')
   revalidatePath('/products')
   revalidatePath('/admin')
+  revalidatePath('/admin/add')
   revalidatePath('/admin/categories')
 }
 

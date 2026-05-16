@@ -43,9 +43,14 @@ export default function AddProductPage() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1.5">
-              หมวดหมู่ <span className="text-red-400">*</span>
-            </label>
+            <div className="flex items-center justify-between mb-1.5">
+              <label className="block text-sm font-medium text-gray-700">
+                หมวดหมู่ <span className="text-red-400">*</span>
+              </label>
+              <Link href="/admin/categories" className="text-xs text-[#1b3c8b] hover:underline">
+                + จัดการหมวดหมู่
+              </Link>
+            </div>
             <select
               name="category"
               required
