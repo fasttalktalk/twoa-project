@@ -2,19 +2,21 @@ import 'server-only'
 import { SignJWT, jwtVerify } from 'jose'
 import { cookies } from 'next/headers'
 
-const key = new TextEncoder().encode(process.env.SESSION_SECRET!)
+function getKey() {
+  return new TextEncoder().encode(process.env.SESSION_SECRET)
+}
 
 export async function encrypt(payload: object) {
   return new SignJWT(payload as Record<string, unknown>)
     .setProtectedHeader({ alg: 'HS256' })
     .setIssuedAt()
     .setExpirationTime('8h')
-    .sign(key)
+    .sign(getKey())
 }
 
 export async function decrypt(token: string) {
   try {
-    const { payload } = await jwtVerify(token, key, { algorithms: ['HS256'] })
+    const { payload } = await jwtVerify(token, getKey(), { algorithms: ['HS256'] })
     return payload
   } catch {
     return null
